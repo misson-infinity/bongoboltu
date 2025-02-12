@@ -52,7 +52,7 @@ function checkCollision() {
 		} else {
 			clearInterval(moveInterval);
 			damageSound.play(); 
-			setTimeout(() => { mouse.src = "./c1.png"; isDamaged = false; canscore = true; moveInterval = setInterval(moveMouse, 20); }, 2400);
+			setTimeout(() => { mouse.src = "./Picsart_24-08-23_02-26-56-927.png"; isDamaged = false; canscore = true; moveInterval = setInterval(moveMouse, 20); }, 2400);
 		}
 	}
 }
